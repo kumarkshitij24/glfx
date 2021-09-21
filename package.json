@@ -1,0 +1,22 @@
+{
+  "name": "@kshitij/glfx",
+  "version": "1.0.0",
+  "description": "This is a simple WebGL Plugin.",
+  "main": "glfx.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kshitij98k/glfx.git"
+  },
+  "keywords": [
+    "webgl"
+  ],
+  "author": "Kumar Kshitij",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kshitij98k/glfx/issues"
+  },
+  "homepage": "https://github.com/kshitij98k/glfx#readme"
+}
