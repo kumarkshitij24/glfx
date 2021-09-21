@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Grand_Slang_Roman";
+    src: url('https://res.cloudinary.com/dznkentev/raw/upload/v1630150807/glfx_showcase/demo_1/demo_1_font/GrandSlang-Roman_fbuhrj.eot');
+    src: url('https://res.cloudinary.com/dznkentev/raw/upload/v1630150807/glfx_showcase/demo_1/demo_1_font/GrandSlang-Roman_fbuhrj.eot?#iefix') format('embedded-opentype'),
+        url('https://res.cloudinary.com/dznkentev/raw/upload/v1630150806/glfx_showcase/demo_1/demo_1_font/GrandSlang-Roman_c7bds3.woff2') format('woff2'),
+        url('https://res.cloudinary.com/dznkentev/raw/upload/v1630150806/glfx_showcase/demo_1/demo_1_font/GrandSlang-Roman_vbj5m7.woff') format('woff'),
+        url('https://res.cloudinary.com/dznkentev/raw/upload/v1630150806/glfx_showcase/demo_1/demo_1_font/GrandSlang-Roman_q7usbl.ttf') format('truetype');
+   
+}
+
+@font-face {
+    font-family: "Grand_Slang_Italic";
+    src: url('https://res.cloudinary.com/dznkentev/raw/upload/v1630150806/glfx_showcase/demo_1/demo_1_font/GrandSlang-Italic_gswful.eot');
+    src: url('https://res.cloudinary.com/dznkentev/raw/upload/v1630150806/glfx_showcase/demo_1/demo_1_font/GrandSlang-Italic_gswful.eot?#iefix') format('embedded-opentype'),
+        url('https://res.cloudinary.com/dznkentev/raw/upload/v1630150806/glfx_showcase/demo_1/demo_1_font/GrandSlang-Italic_jipwjs.woff2') format('woff2'),
+        url('https://res.cloudinary.com/dznkentev/raw/upload/v1630150806/glfx_showcase/demo_1/demo_1_font/GrandSlang-Italic_lv6vfi.woff') format('woff'),
+        url('https://res.cloudinary.com/dznkentev/raw/upload/v1630150806/glfx_showcase/demo_1/demo_1_font/GrandSlang-Italic_dldrjx.ttf') format('truetype');
+    
+}
+
+@font-face {
+    font-family: "Grand_Slang_B_Side";
+    src: url('https://res.cloudinary.com/dznkentev/raw/upload/v1630150805/glfx_showcase/demo_1/demo_1_font/GrandSlang-B-Side_zz7vi6.eot');
+    src: url('https://res.cloudinary.com/dznkentev/raw/upload/v1630150805/glfx_showcase/demo_1/demo_1_font/GrandSlang-B-Side_zz7vi6.eot?#iefix') format('embedded-opentype'),
+        url('https://res.cloudinary.com/dznkentev/raw/upload/v1630150805/glfx_showcase/demo_1/demo_1_font/GrandSlang-B-Side_de0wpw.woff2') format('woff2'),
+        url('https://res.cloudinary.com/dznkentev/raw/upload/v1630150805/glfx_showcase/demo_1/demo_1_font/GrandSlang-B-Side_kokqyf.woff') format('woff'),
+        url('https://res.cloudinary.com/dznkentev/raw/upload/v1630150806/glfx_showcase/demo_1/demo_1_font/GrandSlang-B-Side_zdksx9.ttf') format('truetype');
+    
+}
+
+@font-face {
+    font-family: "Suisse_Reg";
+    src: url('https://res.cloudinary.com/dznkentev/raw/upload/v1626100744/Typography/Suissee/SuisseBPIntl-Regular_c39plt.eot');
+    src: url('https://res.cloudinary.com/dznkentev/raw/upload/v1626100744/Typography/Suissee/SuisseBPIntl-Regular_c39plt.eot?#iefix') format('embedded-opentype'),
+        url('https://res.cloudinary.com/dznkentev/raw/upload/v1626100743/Typography/Suissee/SuisseBPIntl-Regular_vbyguh.woff2') format('woff2'),
+        url('https://res.cloudinary.com/dznkentev/raw/upload/v1626100750/Typography/Suissee/SuisseBPIntl-Regular_jeu28e.woff') format('woff'),
+        url('https://res.cloudinary.com/dznkentev/raw/upload/v1626100745/Typography/Suissee/SuisseBPIntl-Regular_d2mqb1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

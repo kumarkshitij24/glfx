@@ -1,0 +1,372 @@
+@import './font.css';
+@import './starter.css';
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.unsupported{
+    display: none;
+}
+
+ /* ::-webkit-scrollbar {
+     display: none;
+ } */
+
+.navbar_1 {
+    font-family: "Suisse_Reg";
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    font-size: calc(100vw/ 1920 * 23);
+    z-index: 11;
+    background: linear-gradient(#f9f9f9, transparent);
+}
+
+.glfx {
+    font-size: calc(100vw / 1920 * 35);
+    -webkit-user-select: none;
+    user-select: none;
+    
+}
+
+.set_1 {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw;
+    font-size: calc(100vw / 1920 * 20);
+}
+
+.set_1 > a {
+    width: -moz-fit-content;
+    width: fit-content;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: none;
+}
+
+img {
+    width: 25vw;
+    height: 50vh;
+}
+
+.txt_block {
+    margin-left: 2vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.txt_block > h2 {
+    font-family: "Grand_Slang_Roman";
+    font-size: calc(100vw / 1920 * 55);
+    font-weight: normal;
+    -webkit-user-select: none;
+    user-select: none;  
+}
+
+.txt_block > h2 > span {
+    font-family: "Grand_Slang_Italic";
+}
+.txt_block > h2 > span:nth-child(2) {
+    text-decoration: underline;
+}
+.txt_block > .photographer {
+    margin-bottom: 4vw;
+    font-family: "Suisse_Reg";
+    font-size: calc(100vw / 1920 * 25);
+    letter-spacing: 0.05vw;
+}
+.txt_block > p > span {
+    text-decoration: underline;
+}
+
+
+.txt_block_2 {
+    margin-left: 2vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.txt_block_2 > h2 {
+    font-family: "Grand_Slang_Roman";
+    font-size: calc(100vw / 1920 * 55);
+    font-weight: normal;
+    -webkit-user-select: none;
+    user-select: none;  
+}
+
+.txt_block_2 > h2 > span {
+    font-family: "Grand_Slang_Italic";
+}
+.txt_block_2 > h2 > span:nth-child(2) {
+    text-decoration: underline;
+}
+.txt_block_2 > .photographer {
+    margin-bottom: 4vw;
+    font-family: "Suisse_Reg";
+    font-size: calc(100vw / 1920 * 25);
+    letter-spacing: 0.05vw;
+}
+.txt_block_2 > p > span {
+    text-decoration: underline;
+}
+.txt_block_3 {
+    margin-left: 2vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.txt_block_3 > h2 {
+    font-family: "Grand_Slang_Roman";
+    font-size: calc(100vw / 1920 * 55);
+    font-weight: normal;
+    -webkit-user-select: none;
+    user-select: none;  
+}
+
+.txt_block_3 > h2 > span {
+    font-family: "Grand_Slang_Italic";
+}
+.txt_block_3 > h2 > span:nth-child(2) {
+    text-decoration: underline;
+}
+.txt_block_3 > .photographer {
+    margin-bottom: 4vw;
+    font-family: "Suisse_Reg";
+    font-size: calc(100vw / 1920 * 25);
+    letter-spacing: 0.05vw;
+}
+.txt_block_3 > p > span {
+    text-decoration: underline;
+}
+.txt_block_4 {
+    margin-left: 2vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.txt_block_4 > h2 {
+    font-family: "Grand_Slang_Roman";
+    font-size: calc(100vw / 1920 * 55);
+    font-weight: normal;
+    -webkit-user-select: none;
+    user-select: none;  
+}
+
+.txt_block_4 > h2 > span {
+    font-family: "Grand_Slang_Italic";
+}
+.txt_block_4 > h2 > span:nth-child(2) {
+    text-decoration: underline;
+}
+.txt_block_4 > .photographer {
+    margin-bottom: 4vw;
+    font-family: "Suisse_Reg";
+    font-size: calc(100vw / 1920 * 25);
+    letter-spacing: 0.05vw;
+}
+.txt_block_4 > p > span {
+    text-decoration: underline;
+}
+
+.code_1 {
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+    height: 25vh;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: calc(100vw / 1920 * 18);
+    font-family: 'Source Code Pro', monospace;
+    background: rgb(238, 238, 238);
+    border-radius: 2vw;
+}
+
+.footer {
+    font-family: "Suisse_Reg";
+    display: flex;
+    bottom: 0;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    font-size: calc(100vw/ 1920 * 23);
+    z-index: 11;
+    padding: 1.5vw;
+    background: linear-gradient(transparent, #f9f9f9);
+}
+
+/* 
+Responsive Queries */
+
+
+    
+@media (max-width: 768px) {
+    .navbar_1 {
+        font-family: "Suisse_Reg";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        width: 99.5%;
+        /* font-size: calc(100vw/ 1920 * 50); */
+        z-index: 11;
+        /* border: 1px solid black; */
+        background: linear-gradient(#f9f9f9, transparent);
+    }
+
+    .glfx {
+        font-size: calc(100vw / 1920 * 110);
+        -webkit-user-select: none;
+        user-select: none;
+        padding: 3vw 0vw 3vw 0vw;
+    }
+
+    .set_1 {
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2vw;
+        font-size: calc(100vw / 1920 * 70);
+        /* border: 1px solid black; */
+    }
+    
+    .set_1 > a {
+        width: -moz-fit-content;
+        width: fit-content;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    img {
+        margin-top: 6vh;
+        width: 70vw;
+        height: 38vh;
+    }
+    
+    .txt_block {
+        /* border: 1px solid black; */
+        margin-left: 0;
+        height: 30vh;
+        /* width: 96%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .txt_block_2 {
+        height: 30vh;
+        margin-left: 0;
+    }
+
+    .txt_block_3 {
+        height: 30vh;
+        margin-left: 0;
+    }
+
+    .txt_block_4 {
+        height: 30vh;
+        margin-left: 0;
+    }
+    
+    .txt_block > h2 {
+        display: none; 
+    }
+
+    .txt_block_2 > h2 {
+        display: none;
+    }
+
+    .txt_block_3 > h2 {
+        display: none;
+    }
+
+    .txt_block_4 > h2 {
+        display: none;
+    }
+    
+    .txt_block > h2 > span {
+        font-family: "Grand_Slang_Italic";
+    }
+    .txt_block > h2 > span:nth-child(2) {
+        text-decoration: underline;
+    }
+    .txt_block > .photographer {
+        margin-bottom: 4vw;
+        font-family: "Suisse_Reg";
+        font-size: calc(100vw / 1920 * 25);
+        letter-spacing: 0.05vw;
+        display: none;
+    }
+
+    .txt_block_2 > .photographer {
+        display: none;
+    }
+
+    .txt_block_3 > .photographer {
+        display: none;
+    }
+
+    .txt_block_4 > .photographer {
+        display: none;
+    }
+
+    .txt_block > p > span {
+        text-decoration: underline;
+    }
+
+    .code_1 {
+        display: flex;
+        align-items: center;
+        padding: 4vw;
+        height: 100%;
+        width: -moz-fit-content;
+        width: fit-content;
+        font-size: calc(100vw / 1920 * 70);
+        font-family: 'Source Code Pro', monospace;
+        background: rgb(238, 238, 238);
+        border-radius: 4vw;
+    }
+
+    .footer {
+        font-family: "Suisse_Reg";
+        display: flex;
+        bottom: 0;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        width: 99%;
+        font-size: calc(100vw/ 1920 * 90);
+        z-index: 11;
+        padding: 4vw 0vw 4vw 0vw;
+        background: linear-gradient(transparent, #f9f9f9);
+    }
+
+    .footer > p:nth-child(2) {
+        display: none;
+    }
+}
+ 
+
