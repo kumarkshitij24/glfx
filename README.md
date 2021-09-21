@@ -4,9 +4,10 @@ This is a simple WebGL Plugin, made for users to start with WebGL elements on th
 
 # Installation 
 
-### glfx is build over threeJs and gsap library, use CDN to add threeJS and gsap to your page.
+#### glfx is build over threeJs and gsap library, use CDN to add threeJS and gsap to your page.
 
 ThreeJs : `<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>`
+
 Gsap : `<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>`
 
 <ins> _Using NPM:-_ </ins>
@@ -15,9 +16,9 @@ Gsap : `<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.
 
 <ins> _Using CDN:-_ </ins>
 
-UNPKG: ``
+UNPKG: `https://unpkg.com/browse/glfxlib@1.0.0/dist/glfx.min.js`
 
-jsDelivr: ``
+jsDelivr: `https://cdn.jsdelivr.net/npm/glfxlib@1.0.0/dist/glfx.min.js`
 
 # Usage:
 
