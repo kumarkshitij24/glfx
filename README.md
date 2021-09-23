@@ -12,7 +12,7 @@ Gsap : `<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.
 
 <ins> _Using NPM:-_ </ins>
 
-`npm i --save-dev @kshitij/glfx`
+`npm i --save-dev glfxlib`
 
 <ins> _Using CDN:-_ </ins>
 
