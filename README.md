@@ -101,7 +101,7 @@ Set the wireframe to true, and play around with width and height segments to bet
 * _vertexShader_: vertex, (default is set to vertex).
 * _fragmentShader_: fragment (default is set to fragment).
 
-__Note__: the vertexShader options takes 6 different values :
+__Note__: the vertexShader options takes 7 different values :
 1. vertex - the default canvas.
 2. vertexDistort_1
 3. vertexDistort_2
