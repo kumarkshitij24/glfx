@@ -2,6 +2,8 @@
 
 This is a simple WebGL Plugin, made for users to start with WebGL elements on their websites, in the simplest way.
 
+[Demo](https://kshitij-theportfolio.me/glfx/)
+
 # Installation 
 
 #### glfx is build over threeJs and gsap library, use CDN to add threeJS and gsap to your page.
