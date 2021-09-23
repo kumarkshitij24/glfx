@@ -209,6 +209,12 @@ img {
     background: linear-gradient(transparent, #f9f9f9);
 }
 
+.footer > a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
 /* 
 Responsive Queries */
 
@@ -362,6 +368,11 @@ Responsive Queries */
         z-index: 11;
         padding: 4vw 0vw 4vw 0vw;
         background: linear-gradient(transparent, #f9f9f9);
+    }
+
+    .footer > a {
+        cursor: pointer;
+        color: black;
     }
 
     .footer > p:nth-child(2) {
