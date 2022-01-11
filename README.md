@@ -2,7 +2,7 @@
 
 This is a simple WebGL Plugin, made for users to start with WebGL elements on their websites, in the simplest way.
 
-[Demo](https://kshitij-theportfolio.me/glfx/)
+[Demo](https://kumarkshitij98.github.io/glfx/)
 
 # Installation 
 
