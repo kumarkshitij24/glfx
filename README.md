@@ -2,7 +2,7 @@
 
 This is a simple WebGL Plugin, made for users to start with WebGL elements on their websites, in the simplest way.
 
-[Demo](https://kumarkshitij98.github.io/glfx/)
+[Demo](https://kumarkshitij24.github.io/glfx/)
 
 # Installation 
 
@@ -54,7 +54,7 @@ jsDelivr: `https://cdn.jsdelivr.net/npm/glfxlib@1.0.0/dist/glfx.min.js`
 ## Starter JS:
 
 ```
-import glfx, {vertex, vertexDistort_1, vertexDistort_2, vertexDistort_3, vertexDistort_4, vertexDistort_5, vertexDistort_6, fragment, fragmentDistort_1, fragmentDistort_2, fragmentDistort_3, fragmentDistort_4} from 'lerper';
+import glfx, {vertex, vertexDistort_1, vertexDistort_2, vertexDistort_3, vertexDistort_4, vertexDistort_5, vertexDistort_6, fragment, fragmentDistort_1, fragmentDistort_2, fragmentDistort_3, fragmentDistort_4} from 'glfxlib';
 
 const gl = new glfx({
     dom: canvas,
