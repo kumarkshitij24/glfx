@@ -101,11 +101,13 @@ The default value for **`dom`** option is set to canvas which fetches the canvas
     * `vertexDistort_5`
     * `vertexDistort_6`
 * **`fragmentShader`**: This option has 5 different values:
-    * fragment: This is the default canvas.
-    * fragmentDistort_1
-    * fragmentDistort_2
-    * fragmentDistort_3
-    * fragmentDistort_4
+
+    * `fragment`: This is the default canvas.
+    * `fragmentDistort_1`
+    * `fragmentDistort_2`
+    * `fragmentDistort_3`
+    * `fragmentDistort_4`
+    
     
 Note: The default values for **`vertexShader`** and **`fragmentShader`** are vertex and fragment respectively.
 
