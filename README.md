@@ -92,13 +92,14 @@ The default value for **`dom`** option is set to canvas which fetches the canvas
 
 ### WebGL Shader Controls
 * **`vertexShader`**: This option has 7 different values:
-    * vertex: This is the default canvas.
-    * vertexDistort_1
-    * vertexDistort_2
-    * vertexDistort_3
-    * vertexDistort_4
-    * vertexDistort_5
-    * vertexDistort_6
+
+    * `vertex`: This is the default canvas.
+    * `vertexDistort_1`
+    * `vertexDistort_2`
+    * `vertexDistort_3`
+    * `vertexDistort_4`
+    * `vertexDistort_5`
+    * `vertexDistort_6`
 * **`fragmentShader`**: This option has 5 different values:
     * fragment: This is the default canvas.
     * fragmentDistort_1
