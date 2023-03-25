@@ -79,43 +79,30 @@ const gl = new glfx({
 
 ## Options:
 
-* _dom_: canvas (fetches the canvas of the whole website, this is a default value and shouldn't be changed).
+The default value for dom option is set to canvas which fetches the canvas of the whole website and shouldn't be changed.
 
-[//] <> (Scroll Controls)
+Scroll Controls
+easing: This is the scroll smoothness value and should be strictly between 0.05 ~ 0.2 for best effect. The value can be adjusted and experimented with, to better understand the synchronization of the effect.
+bending: This is the adjustment time for the scroll WebGL animation effect.
+WebGL Segment Controls
+widthSegments: This controls the number of horizontal segments in the WebGL animation effect. Increasing the value will result in higher GPU usage. The recommended value ranges from 5 ~ 1000.
+heightSegments: This controls the number of vertical segments in the WebGL animation effect. Increasing the value will result in higher GPU usage. The recommended value ranges from 5 ~ 1000.
+wireFrame: This option is set to false by default, but can be set to true to see the width and height segments. It is recommended to use segments that are optimal for low-end systems as well.
+WebGL Shader Controls
+vertexShader: This option has 7 different values:
+vertex: This is the default canvas.
+vertexDistort_1
+vertexDistort_2
+vertexDistort_3
+vertexDistort_4
+vertexDistort_5
+vertexDistort_6
+fragmentShader: This option has 5 different values:
+fragment: This is the default canvas.
+fragmentDistort_1
+fragmentDistort_2
+fragmentDistort_3
+fragmentDistort_4
+Note: The default values for vertexShader and fragmentShader are vertex and fragment respectively.
 
-* _easing_: 0.1 (this is the scroll smoothness value, the value ranges between 0.05 ~ 0.2, for best effect)
-* _bending_: 1 (this is the adjustment time for scroll webgl animation effect)
-
-__Note__: The easing value should be strictly under 0.05 ~ 0.2, exceeding or preceeding might break the effect.
-Play with easing and bending value to understand synchronisation of effect.
-          
-[//] <> (WebGL Segment Controls)
-
-* _widthSegments_: 40 (more the value, higher the gpu usage)
-* _heightSegments_: 40 (more the value, higher the gpu usage)
-* _wireFrame_: false (default is set to false, set it true to see the widthsegments and heightsegments).
-
-__Note__: The values for width and height segments can be different, it normally ranges from 5 ~ 1000, but it is recommended to use segments which is optimal for low-end systems as well.
-Set the wireframe to true, and play around with width and height segments to better understand, segments.
-
-[//] <> (WebGL Shader Controls)
-
-* _vertexShader_: vertex, (default is set to vertex).
-* _fragmentShader_: fragment (default is set to fragment).
-
-__Note__: the vertexShader options takes 7 different values :
-1. vertex - the default canvas.
-2. vertexDistort_1
-3. vertexDistort_2
-4. vertexDistort_3
-5. vertexDistort_4
-6. vertexDistort_5
-7. vertexDistort_6
-
-and the fragmentShader currently takes 5 different values :
-1. fragment - the default canvas.
-2. fragmentDistort_1
-3. fragmentDistort_2
-4. fragmentDistort_3
-5. fragmentDistort_4
-
+It is recommended to experiment with different options and values to achieve the desired effect while keeping in mind the GPU usage and optimization for low-end systems. Set the wireFrame option to true and play around with widthSegments and heightSegments to better understand the segments.
