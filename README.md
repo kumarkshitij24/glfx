@@ -107,7 +107,7 @@ The default value for **`dom`** option is set to canvas which fetches the canvas
     * `fragmentDistort_2`
     * `fragmentDistort_3`
     * `fragmentDistort_4`
-<br/>       
+<br>       
 Note: The default values for **`vertexShader`** and **`fragmentShader`** are vertex and fragment respectively.
-<br/>
+<br>
 It is recommended to experiment with different options and values to achieve the desired effect while keeping in mind the GPU usage and optimization for low-end systems. Set the **`wireFrame`** option to **`true`** and play around with **`widthSegments`** and **`heightSegments`** to better understand the segments.
