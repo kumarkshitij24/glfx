@@ -81,8 +81,8 @@ const gl = new glfx({
 
 The default value for **`dom`** option is set to canvas which fetches the canvas of the whole website and shouldn't be changed.
 
-Scroll Controls
-easing: This is the scroll smoothness value and should be strictly between 0.05 ~ 0.2 for best effect. The value can be adjusted and experimented with, to better understand the synchronization of the effect.
+### Scroll Controls
+* **`easing`**: This is the scroll smoothness value and should be strictly between 0.05 ~ 0.2 for best effect. The value can be adjusted and experimented with, to better understand the synchronization of the effect.
 bending: This is the adjustment time for the scroll WebGL animation effect.
 WebGL Segment Controls
 widthSegments: This controls the number of horizontal segments in the WebGL animation effect. Increasing the value will result in higher GPU usage. The recommended value ranges from 5 ~ 1000.
