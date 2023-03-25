@@ -82,21 +82,23 @@ const gl = new glfx({
 The default value for **`dom`** option is set to canvas which fetches the canvas of the whole website and shouldn't be changed.
 
 ### Scroll Controls
-* **`easing`**: This is the scroll smoothness value and should be strictly between 0.05 ~ 0.2 for best effect. The value can be adjusted and experimented with, to better understand the synchronization of the effect.
-bending: This is the adjustment time for the scroll WebGL animation effect.
-WebGL Segment Controls
-widthSegments: This controls the number of horizontal segments in the WebGL animation effect. Increasing the value will result in higher GPU usage. The recommended value ranges from 5 ~ 1000.
-heightSegments: This controls the number of vertical segments in the WebGL animation effect. Increasing the value will result in higher GPU usage. The recommended value ranges from 5 ~ 1000.
-wireFrame: This option is set to false by default, but can be set to true to see the width and height segments. It is recommended to use segments that are optimal for low-end systems as well.
-WebGL Shader Controls
-vertexShader: This option has 7 different values:
-vertex: This is the default canvas.
-vertexDistort_1
-vertexDistort_2
-vertexDistort_3
-vertexDistort_4
-vertexDistort_5
-vertexDistort_6
+* **`easing`**: This is the scroll smoothness value and should be strictly between **`0.05` ~ `0.2`** for best effect. The value can be adjusted and experimented with, to better understand the synchronization of the effect.
+* **`bending`**: This is the adjustment time for the scroll WebGL animation effect.
+
+### WebGL Segment Controls
+* **`widthSegments`**: This controls the number of horizontal segments in the WebGL animation effect. Increasing the value will result in higher GPU usage. The recommended value ranges from **`5` ~ `1000`**.
+* **`heightSegments`**: This controls the number of vertical segments in the WebGL animation effect. Increasing the value will result in higher GPU usage. The recommended value ranges from **`5` ~ `1000`**.
+* **`wireFrame`**: This option is set to **`false`** by default, but can be set to **`true`** to see the width and height segments. It is recommended to use segments that are optimal for low-end systems as well.
+
+### WebGL Shader Controls
+* **`vertexShader`**: This option has 7 different values:
+* vertex: This is the default canvas.
+* vertexDistort_1
+* vertexDistort_2
+* vertexDistort_3
+* vertexDistort_4
+* vertexDistort_5
+* vertexDistort_6
 fragmentShader: This option has 5 different values:
 fragment: This is the default canvas.
 fragmentDistort_1
