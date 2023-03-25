@@ -92,19 +92,20 @@ The default value for **`dom`** option is set to canvas which fetches the canvas
 
 ### WebGL Shader Controls
 * **`vertexShader`**: This option has 7 different values:
-* vertex: This is the default canvas.
-* vertexDistort_1
-* vertexDistort_2
-* vertexDistort_3
-* vertexDistort_4
-* vertexDistort_5
-* vertexDistort_6
-fragmentShader: This option has 5 different values:
-fragment: This is the default canvas.
-fragmentDistort_1
-fragmentDistort_2
-fragmentDistort_3
-fragmentDistort_4
-Note: The default values for vertexShader and fragmentShader are vertex and fragment respectively.
+    * vertex: This is the default canvas.
+    * vertexDistort_1
+    * vertexDistort_2
+    * vertexDistort_3
+    * vertexDistort_4
+    * vertexDistort_5
+    * vertexDistort_6
+* **`fragmentShader`**: This option has 5 different values:
+    * fragment: This is the default canvas.
+    * fragmentDistort_1
+    * fragmentDistort_2
+    * fragmentDistort_3
+    * fragmentDistort_4
+    
+Note: The default values for **`vertexShader`** and **`fragmentShader`** are vertex and fragment respectively.
 
-It is recommended to experiment with different options and values to achieve the desired effect while keeping in mind the GPU usage and optimization for low-end systems. Set the wireFrame option to true and play around with widthSegments and heightSegments to better understand the segments.
+It is recommended to experiment with different options and values to achieve the desired effect while keeping in mind the GPU usage and optimization for low-end systems. Set the **`wireFrame`** option to **`true`** and play around with **`widthSegments`** and **`heightSegments`** to better understand the segments.
