@@ -10,7 +10,7 @@ Check out the demo [here](https://kumarkshitij24.github.io/glfx/)
 
 ### Using CDN
 
-To use glfx, you need to add three.js and gsap to your page. You can do this by adding the following CDN links to your HTML file:
+To use glfx, you need to add **three.js** and **gsap** to your page. You can do this by adding the following CDN links to your HTML file:
 
 ```
 <!-- three.js -->
