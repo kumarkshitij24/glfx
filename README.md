@@ -1,30 +1,42 @@
-# About glfx
+# glfx
 
 This is a simple WebGL Plugin, made for users to start with WebGL elements on their websites, in the simplest way.
 
-[Demo](https://kumarkshitij24.github.io/glfx/)
+## Demo
 
-# Installation 
+Check out the demo [here](https://kumarkshitij24.github.io/glfx/)
 
-#### glfx is build over threeJs and gsap library, use CDN to add threeJS and gsap to your page.
+## Installation 
 
-ThreeJs : `<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>`
+### Using CDN
 
-Gsap : `<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>`
+To use glfx, you need to add three.js and gsap to your page. You can do this by adding the following CDN links to your HTML file:
 
-<ins> _Using NPM:-_ </ins>
+```
+<!-- three.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+<!-- gsap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+
+<!-- glfx -->
+<script src="https://cdn.jsdelivr.net/npm/glfxlib@1.0.0/dist/glfx.min.js"></script>
+```
+
+Alternatively, you can use UNPKG by adding the following link to your HTML file:
+
+```
+<script src="https://unpkg.com/browse/glfxlib@1.0.0/dist/glfx.min.js"></script>
+```
+
+### Using npm
+You can also install glfx using npm:
 
 `npm i --save-dev glfxlib`
 
-<ins> _Using CDN:-_ </ins>
+## Usage:
 
-UNPKG: `https://unpkg.com/browse/glfxlib@1.0.0/dist/glfx.min.js`
-
-jsDelivr: `https://cdn.jsdelivr.net/npm/glfxlib@1.0.0/dist/glfx.min.js`
-
-# Usage:
-
-## Starter HTML:
+### Starter HTML:
 
 ```
 <html lang="en">
@@ -54,7 +66,20 @@ jsDelivr: `https://cdn.jsdelivr.net/npm/glfxlib@1.0.0/dist/glfx.min.js`
 ## Starter JS:
 
 ```
-import glfx, {vertex, vertexDistort_1, vertexDistort_2, vertexDistort_3, vertexDistort_4, vertexDistort_5, vertexDistort_6, fragment, fragmentDistort_1, fragmentDistort_2, fragmentDistort_3, fragmentDistort_4} from 'glfxlib';
+import glfx, {
+    vertex,
+    vertexDistort_1,
+    vertexDistort_2,
+    vertexDistort_3,
+    vertexDistort_4,
+    vertexDistort_5,
+    vertexDistort_6,
+    fragment,
+    fragmentDistort_1,
+    fragmentDistort_2,
+    fragmentDistort_3,
+    fragmentDistort_4
+} from 'glfxlib';
 
 const gl = new glfx({
     dom: canvas,
@@ -74,7 +99,7 @@ const gl = new glfx({
 
     vertexShader: vertex,
     fragmentShader: fragment
-})
+});
 ```
 
 ## Options:
